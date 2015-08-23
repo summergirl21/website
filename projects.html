@@ -1,4 +1,3 @@
-
 <!DOCTYPE>
 <html>
 	<head>
@@ -9,12 +8,19 @@ href'http://fonts.googleapis.com/css?familyOpen+Sans' rel='stylecheet'
 type='text/css'>
 	</head>
 	<body>
-		 <div id="menu">
-                        <a href="index.html">Home</a>
-                        <a href="projects.html">Projects</a>
-                        <a href="MadelineStagerResume.pdf">Resume</a>
-                        <a style="margin-right:1px;" href="contact.html">Contact</a>
-                </div>
+		 <header>
+		<div id="logo" class="menuUp">
+		<h2>Madeline Stager</h2>
+		</div>
+		<nav>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="projects.html">Projects</a></li> 
+			<li><a href="MadelineStagerResume.pdf" target="blank">Resume</a></li>
+			<li><a style="margin-right:1px;" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</header>
 		 <div id="title">
 			<h1 align="center">Projects</h1>
 		</div>
@@ -23,7 +29,7 @@ type='text/css'>
                         <img src= "Tic-Tac-Toe_002.png" alt="Tic-Tac-Toe"/>
                 </div>
                 <div id="blurb" style="width:60%;">
-					<p>In python I created a GUI and agorithm to rate the squares on the board and decide which is the best move.</p>
+					<p>In python I created a GUI and agorithm to rate the squares on the board and decide which is the best move. I originally started this project because I had never made a program with a GUI before. However my favorite part was coming up with an algorithm to rate the squares. Tic-Tac-Toe is a simple enough game that its possible to simply play out every possible game and move and find the best option. However I didn't want to do this, instead I tried emulate my own thought process. I decide which square is best to play in based which squares have already been played in. I came up with an function that rates the squares based on the combination of squares already played and picks the highest rated square. I also added a random element if squares have the same rating to make the game more interesting. In the futer I want to translate this game to JavaScript so I can post it online.</p>
 		</div>
 	</body>
 </html>
