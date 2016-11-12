@@ -1,36 +1,53 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Adapted by Madeline Stager from template
+
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, inital-scale=1">
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title>Madeline Stager</title>
-		<link 
-href'http://fonts.googleapis.com/css?familyOpen+Sans' rel='stylecheet' 
-type='text/css'>
+		<title>Aerial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body>
-		<header>
-		<div id="logo" class="menuUp">
-		<h2>Madeline Stager</h2>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Madeline Stager</h1>
+						<p>Student &nbsp;&bull;&nbsp; Software Engineer &nbsp;&bull;&nbsp; Outdoors Enthusiast</p>
+						<nav>
+							<ul>
+								<li><a href="MadelineStagerResume.pdf" target="blank" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
+								<li><a href="https://www.linkedin.com/in/madelinestager" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://github.com/summergirl21" class="icon fa-github"><span class="label">Github</span></a></li>
+								<!--<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Madeline Stager. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
 		</div>
-		<nav>
-			<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li> 
-			<li><a href="MadelineStagerResume.pdf" target="blank">Resume</a></li>
-			<li><a style="margin-right:1px;" href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		</header>
-		<div id="title">
-			<h1 align="center">Home</h1>
-			<!--<h3 align="center">About Me</h3>-->
-		</div>
-		<div id="picture">
-			<img src="WebSiteFlower.jpeg" alt="Pretty Picture"/> <!--change to picture of me -->
-		</div>
-		<div id="blurb">
-			<p>I'm a third year computer science major at University of Texas at Austin. I enjoy the problem solving and challenges that computer science involves. I am currently looking for an intership for summer 2017. Through future internships I hope to gain valuable hands on experience that will help me discover what interests I want to focus on in my education and career. I am especally interested in computer vision, machine learning and computer architechure. When I'm not coding I enjoy photography, camping, hiking, and playing ulitmate frisbee.</p>
-		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
